@@ -1,0 +1,1 @@
+ALTER TABLE `oa_sets` ADD `ctc` text;

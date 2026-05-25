@@ -1,0 +1,105 @@
+/**
+ * Comprehensive list of IITs, NITs and IIITs of India.
+ * Used as autocomplete options on the contribute form. Stored as plain text
+ * on `oa_sets.college` so users can still type a college not in this list
+ * (e.g. BITS, IISc) if needed.
+ */
+
+export const IITS = [
+  "IIT Bombay",
+  "IIT Delhi",
+  "IIT Madras",
+  "IIT Kanpur",
+  "IIT Kharagpur",
+  "IIT Roorkee",
+  "IIT Guwahati",
+  "IIT Hyderabad",
+  "IIT Indore",
+  "IIT (BHU) Varanasi",
+  "IIT Bhubaneswar",
+  "IIT Gandhinagar",
+  "IIT Patna",
+  "IIT Ropar",
+  "IIT Mandi",
+  "IIT Jodhpur",
+  "IIT Tirupati",
+  "IIT Palakkad",
+  "IIT Dharwad",
+  "IIT Bhilai",
+  "IIT Goa",
+  "IIT Jammu",
+  "IIT (ISM) Dhanbad",
+] as const;
+
+export const NITS = [
+  "NIT Srinagar",
+  "NIT Tiruchirappalli",
+  "NIT Surathkal",
+  "NIT Warangal",
+  "NIT Rourkela",
+  "NIT Calicut",
+  "VNIT Nagpur",
+  "MNNIT Allahabad",
+  "MNIT Jaipur",
+  "SVNIT Surat",
+  "MANIT Bhopal",
+  "NIT Durgapur",
+  "NIT Kurukshetra",
+  "NIT Jamshedpur",
+  "NIT Silchar",
+  "NIT Hamirpur",
+  "NIT Patna",
+  "NIT Raipur",
+  "NIT Agartala",
+  "NIT Arunachal Pradesh",
+  "NIT Delhi",
+  "NIT Goa",
+  "NIT Manipur",
+  "NIT Meghalaya",
+  "NIT Mizoram",
+  "NIT Nagaland",
+  "NIT Puducherry",
+  "NIT Sikkim",
+  "NIT Uttarakhand",
+  "NIT Andhra Pradesh",
+  "NIT Jalandhar",
+] as const;
+
+export const IIITS = [
+  "IIIT Hyderabad",
+  "IIIT Bangalore",
+  "IIIT Delhi",
+  "IIIT Allahabad",
+  "ABV-IIITM Gwalior",
+  "PDPM IIITDM Jabalpur",
+  "IIITDM Kancheepuram",
+  "IIIT Lucknow",
+  "IIIT Sri City",
+  "IIIT Guwahati",
+  "IIIT Vadodara",
+  "IIIT Kota",
+  "IIITDM Kurnool",
+  "IIIT Tiruchirappalli",
+  "IIIT Una",
+  "IIIT Sonepat",
+  "IIIT Nagpur",
+  "IIIT Pune",
+  "IIIT Bhagalpur",
+  "IIIT Bhopal",
+  "IIIT Surat",
+  "IIIT Ranchi",
+  "IIIT Manipur",
+  "IIIT Kalyani",
+  "IIIT Kottayam",
+  "IIIT Dharwad",
+  "IIIT Raichur",
+  "IIIT Agartala",
+] as const;
+
+export const COLLEGES: readonly string[] = [...IITS, ...NITS, ...IIITS];
+
+export const COLLEGE_GROUPS = [
+  { label: "IITs", items: IITS },
+  { label: "NITs", items: NITS },
+  { label: "IIITs", items: IIITS },
+] as const;

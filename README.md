@@ -1,5 +1,4 @@
-# CampusVault — NIT Srinagar
-
+# CampusVault 
 A private, login-gated archive of past **Online Assessments**, **interview experiences**, and **placement data** — built by and for NIT Srinagar students.
 
 Domain-locked to `@nitsri.ac.in`. Files live on Google Drive (owned by a Service Account); the platform proxies every byte through short-lived single-use tokens so the browser never sees a Drive URL. Every view is watermarked with the viewer's email and audit-logged.

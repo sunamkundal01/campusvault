@@ -48,3 +48,5 @@ gcp-*.json
 
 # Misc
 /.drizzle
+
+.claude/
